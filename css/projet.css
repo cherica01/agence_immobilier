@@ -1,0 +1,169 @@
+
+.texte{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     padding-left: 20%;
+     color: rgb(17, 16, 17);
+     padding-top: -20%;
+}
+.nav{
+    padding-left: 73%;
+    padding-top: 0cm;
+    color: thistle;
+    font-family: inherit;
+    font-size: 20px;
+    text-decoration: none;
+}
+.lien{
+    text-decoration: none;
+    color: white;
+    padding-left: 2px;
+}
+.box{
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px black;
+}
+body{
+    background-color: rgb(75, 121, 238);
+}
+.lokoina{
+    background-color: blue;
+    width: 1200px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+.footer{
+    display: flex;
+   padding-left: 20px;
+}
+.f1{
+    padding-right: 120px;
+}
+.f2{
+    padding-right: 120px;
+}
+.FOOTER{
+    background-color: black;
+    color: cornsilk;
+    margin-top: 0px;
+}
+#PRO{
+    margin-left: 50PX;
+}
+.REHETRA{
+    margin-left: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: white;
+}
+h4{
+    font-size: 40px;
+    text-decoration-style: double;
+}
+.PHOTO{
+    display: flex;
+    margin-left:5%;
+}
+@media screen and (max-width: 680px){
+    .PHOTO {
+        display: block;
+        margin-right: -50%; 
+        padding-left: -500px;
+    }
+    
+    .nav{
+        padding-left: 350px;
+        padding-top: 220px;
+        }
+    .lokoina{
+        width: 600px;
+        margin-left: -50px;
+    }
+    .ovana{
+        width: 400px;
+    }
+    .slides{
+        width: 400px;
+    }
+    @keyframes glisse{
+        0% { 
+            transform: translate(0);
+        }
+        10% { 
+            transform: translate(0);
+        }
+         50% { 
+            transform: translate(-500px)
+         }
+         70% { 
+            transform: translate(0);
+        }
+        100% { 
+            transform: translate(0)
+        }
+}
+}
+ 
+        
+
+#foot{
+    display: flex;
+}
+.fat{
+    margin-left: 20px;
+    padding-top: 50px;
+}
+.slide{
+    float: left;
+}
+.slides{
+    width: calc(1100px * 2);
+    animation: glisse 10s infinite;
+}
+.slider{
+    width: 1100px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+@keyframes glisse{
+    0% { 
+        transform: translate(0);
+    }
+    6% { 
+        transform: translate(0);
+    }
+     50% { 
+        transform: translate(-1100px)
+     }
+     70% { 
+        transform: translate(0);
+    }
+    100% { 
+        transform: translate(0)
+    }
+}
+.BODY{
+    margin-top: 60px;
+    font-size: 25px;
+}
+.volohany{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.border{
+    border-radius: 16px;
+    transition: 0.5s;
+    box-shadow: 10px 15px 5px rgb(22, 22, 22);
+    margin-left: 10px;
+}
+.border:hover{
+    width: 550px;
+    height: 450px;
+    transition: 1s;
+}
